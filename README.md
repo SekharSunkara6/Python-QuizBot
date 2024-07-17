@@ -1,7 +1,6 @@
 # .env
-This .env files are commonly used to store configuration variables. These files are often used to store sensitive information like API keys, passwords, and other environment-specific settings. The .env files are not typically committed to version control systems like Git to keep this sensitive information secure. Instead, developers create a sample .env file with placeholders for the actual values and provide instructions on how to set up the .env file locally.
-1. I choose .env file to run up the project
-2. sample env file created ==> .env.example. just use those if you want it.
+This .env files are commonly used to store configuration variables. These files are often used to store sensitive information like API keys, passwords, and other environment-specific settings. The .env files are not typically committed to version control systems like Git to keep this sensitive information secure. Instead, developers create a sample .env file with placeholders for the actual values and provide instructions on how to set up the .env file locally. 
+I choose .env file to run up the project sample env file created ==> .env.example. just use those if you want it.
 
 # Python-QuizBot
 This is a basic version of an interactive quiz bot that engages users in quizzes, evaluates their responses, and provides a final score based on their answers. In this we use Django channels websocket communication, redis as message broker, and Django sessions for temporary data storage.
